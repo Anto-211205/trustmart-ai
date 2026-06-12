@@ -1,19 +1,158 @@
-# Python
+# ============================================================================
+# PYTHON
+# ============================================================================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Virtual Environment
+# ============================================================================
+# VIRTUAL ENVIRONMENTS
+# ============================================================================
 backend/venv/
+backend/env/
+venv/
+env/
+ENV/
+.venv
 
-# Environment
+# ============================================================================
+# LARGE DATA FILES & ML MODELS (Use Git LFS instead)
+# ============================================================================
+*.pkl
+*.pickle
+*.joblib
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.keras
+*.csv
+*.xlsx
+*.xls
+*.parquet
+dataset/
+models/
+data/
+
+# ============================================================================
+# NODE.JS / FRONTEND
+# ============================================================================
+node_modules/
+frontend/node_modules/
+npm-debug.log
+yarn-error.log
+*.tsbuildinfo
+dist/
+.next/
+out/
+
+# ============================================================================
+# ENVIRONMENT & CONFIGURATION
+# ============================================================================
 .env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+credentials.json
 
-# ML Models (optional)
-# *.pkl
-
-# VS Code
+# ============================================================================
+# IDE & EDITOR
+# ============================================================================
 .vscode/
-
-# OS
+.idea/
+*.swp
+*.swo
+*~
 .DS_Store
+.AppleDouble
+.LSOverride
+*.sublime-workspace
+*.sublime-project
+
+# ============================================================================
+# OS FILES
+# ============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+desktop.ini
+
+# ============================================================================
+# TESTING & COVERAGE
+# ============================================================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+*.cover
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================================================
+# NATIVE BINARIES (Platform-specific)
+# ============================================================================
+*.node
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.pyd
+*.so
+*.egg
+*.whl
+
+# ============================================================================
+# SCIPY/NUMPY BINARIES (Keep these out)
+# ============================================================================
+*.dll
+*.pyx.c
+*.c
+
+# ============================================================================
+# GIT LFS (Pointer files will track large assets)
+# ============================================================================
+# Large files are tracked via .gitattributes
+
+# ============================================================================
+# MISC
+# ============================================================================
+.cache/
+*.log
+*.pot
+.eslintcache
+tmp/
+temp/
+.python-version
