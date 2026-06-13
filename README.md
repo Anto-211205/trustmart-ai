@@ -75,3 +75,10 @@ TrustMart AI is a modern, AI-powered product review analysis platform designed t
 - Completely redesigned the frontend architecture to use Tailwind CSS v4 and a component-driven structure.
 - Resolved ML class imbalance and prediction thresholding issues to accurately reflect fake review percentages across the platform.
 - Fixed a known pickling/unpickling issue by aliasing the model class gracefully in the Uvicorn runtime environment.
+screenshots:
+<img width="1917" height="878" alt="Screenshot 2026-06-14 014540" src="https://github.com/user-attachments/assets/14e30672-2e03-4889-ad81-4d15aa18fee9" />
+<img width="1587" height="587" alt="Screenshot 2026-06-14 014522" src="https://github.com/user-attachments/assets/37d18993-07b1-47e4-8337-a343354a1369" />
+<img width="1918" height="950" alt="Screenshot 2026-06-14 014503" src="https://github.com/user-attachments/assets/08bd31bb-e9dd-435d-8877-55bc88268ccf" />
+<img width="1912" height="897" alt="Screenshot 2026-06-14 014446" src="https://github.com/user-attachments/assets/55a359cf-856d-4070-8bac-90ba8acb87d6" />
+<img width="1918" height="858" alt="Screenshot 2026-06-14 014414" src="https://github.com/user-attachments/assets/f20f7b04-fee7-43bc-a5d0-32c2854bb4e5" />
+<img width="1918" height="906" alt="Screenshot 2026-06-14 014316" src="https://github.com/user-attachments/assets/2be6b06c-0898-4246-a090-4a944b1a125b" />
