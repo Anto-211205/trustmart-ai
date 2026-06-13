@@ -179,7 +179,10 @@ def get_fake_reviews(product_id: int):
 
         result = conn.execute(
             text("""
-                SELECT review_text
+                SELECT review_text,
+                       score,
+                       helpful_num,
+                       helpful_den
                 FROM reviews
                 WHERE amazon_product_id =
                 (
@@ -200,10 +203,11 @@ def get_fake_reviews(product_id: int):
 
     for review in reviews:
 
-        text_review = review["review_text"]
-
         prediction = predict_fake_review(
-            text_review
+            review_text=review["review_text"] or "",
+            score=review.get("score"),
+            helpful_num=review.get("helpful_num") or 0,
+            helpful_den=review.get("helpful_den") or 0,
         )
 
         if prediction == 1:
